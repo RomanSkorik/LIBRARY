@@ -1,0 +1,163 @@
+/*...............1920x1007...............*/
+
+
+/* RED */
+
+
+html,
+body {
+  background-color: #e8eefd;
+  background-image: linear-gradient(0deg, #e8eefd 0%, #a9d5ee 68%);
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+/* Main */
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 1007px;
+}
+
+
+/* Header */
+
+
+.header {
+  width: 1920px;
+  padding-top: 30px;
+}
+
+.header__inner {
+  width: 100%;
+  max-width: 1620px;
+  margin: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.logo_text h1,
+.logo_text h2 {
+  font: normal 250% 'century gothic', arial, sans-serif;
+  margin: 0;
+}
+
+.logo_text h1,
+.logo_text h1 a,
+.logo_text h1 a:hover {
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.logo_text h2 {
+  font-size: 0.9em;
+  padding: 4px 0 0 0;
+  color: #779CB7;
+}
+
+.menubar {
+  width: 100%;
+  height: 48px;
+}
+
+
+/* BUTTON*/
+
+
+.btn {
+  border: 1px solid #fdfdfd;
+  background: none;
+  padding: 10px 20px;
+  font: normal 100% 'century gothic', arial, sans-serif;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: 1s;
+  position: relative;
+  overflow: hidden;
+  float: right;
+  margin: 3.5px 0 3.5px 0;
+}
+
+.btn1 {
+  color: #fff;
+  border-radius: 50px;
+}
+
+.btn1:hover {
+  background: #fff;
+  color: #779cb7;
+}
+
+
+/* LISTING */
+
+
+div.listing {
+  height: 680px;
+  width: 1620px;
+  border: 1px solid #fdfdfd;
+  background: none;
+  font: normal 100% 'trebuchet ms', sans-serif;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #fff;
+  position: absolute;
+  margin: 163.5px 150px;
+  opacity: .7;
+}
+
+
+/* footer */
+
+
+.footer {
+  width: 1920px;
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1620px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.img {
+  position: absolute;
+  margin-left: 108px;
+}
+
+div.mail {
+  margin-left: 20px;
+  display: inline;
+}
+
+div.d {
+  margin-right: 20px;
+  display: inline;
+}
+
+.year_upd h2,
+.dev h2 {
+  font: normal 250% 'century gothic', arial, sans-serif;
+  margin: 0;
+  font-size: 0.9em;
+  color: #779CB7;
+  display: inline;
+}
